@@ -1,6 +1,6 @@
 import Fastify from 'fastify'
 const fastify = Fastify({ logger: true })
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 
 // Declare a route
 fastify.get('/api', async (request, reply) => {
